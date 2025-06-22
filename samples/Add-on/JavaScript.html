@@ -18,7 +18,7 @@
    * Create a wrapped version of google.script.run that
    * is adapted for Angular promises.
    */
-  var ScriptService = function($q) {
+  var ScriptService = function(Key) {
     var self = this; 
     var promisify = function(key) {
       return function() {      
